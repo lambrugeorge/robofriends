@@ -23,14 +23,13 @@ Welcome to RoboFriends, where the future meets friendship! 🤖✨ This React-po
 The application should now be running at http://localhost:3000.
 
 ✨ Features
-Shows a list of bot friends.
-Search for bots by their name.
-Responsive design.
-Load indicator during data retrieval.
+Bot Companions: Explore a vibrant list of friendly robots.
+Smart Search: Easily find your robotic pals by searching for their names.
+Responsive Design: Whether you're on a desktop or a mobile device, RoboFriends adapts seamlessly.
+Loading Indicator: Witness the excitement with a dynamic loading indicator during data retrieval.
 
-
-🛠 Technologies used
-reaction
+🛠 Technologies Used
+React
 React DOM
 React Scripts
 Tachyons
