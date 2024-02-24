@@ -26,7 +26,7 @@ function App() {
   });
 
   return !robots.length ? (
-    <h1>Se încarcă...</h1>
+    <h1>Loading...</h1>
   ) : (
     <div className='tc'>
       <h1 className='f1'>RoboFriends</h1>
