@@ -12,15 +12,6 @@ Welcome to RoboFriends, where the future meets friendship! 🤖✨ This React-po
 - **Responsive Design:** Whether you're on a desktop or a mobile device, RoboFriends adapts to provide a seamless experience.
 - **Loading Excitement:** Witness the loading indicator as RoboFriends fetches the latest robot data – it's like unwrapping a gift!
 
-## 🚀 Quick Start Steps
-
- **Clone this Repository:**
-    git clone [](https://github.com/lambrugeorge/robofriends.git)
-    **cd robofriends**
-    **npm install**
-    **npm start**
-    The application should now be running at [http://localhost:3000](http://localhost:3000).
-
 ## ✨ Features
 
 - Shows a list of bot friends.
