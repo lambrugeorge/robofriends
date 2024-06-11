@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
-import Scroll from './Scroll';
-import ErrorBoundry from './ErrorBoundry';
-import Header from './Header';
 
-export class MainPage extends Component {
+class MainPage extends React.Component {
   componentDidMount() {
     this.props.onRequestRobots();
   }
@@ -15,7 +11,7 @@ export class MainPage extends Component {
     const { robots, searchField } = this.props;
     return robots.filter(robot => {
       return robot.name.toLowerCase().includes(searchField.toLowerCase());
-    })
+    });
   }
 
   render() {
@@ -23,18 +19,15 @@ export class MainPage extends Component {
 
     return (
       <div className='tc'>
-        <Header />
-        <SearchBox searchChange={onSearchChange}/>
-        <Scroll>
-          { isPending ? <h1>Loading</h1> :
-            <ErrorBoundry>
-              <CardList robots={this.filterRobots()} />
-            </ErrorBoundry>
-          }
-        </Scroll>
+        <h1 className='f1'>RoboFriends</h1>
+        <SearchBox searchChange={onSearchChange} />
+        { isPending ?
+          <h2>Loading...</h2> :
+          <CardList robots={this.filterRobots()} />
+        }
       </div>
     );
   }
 }
 
-export default MainPage
+export default MainPage;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage component renders MainPage without crashing 1`] = `ShallowWrapper {}`;
+
+exports[`renders MainPage without crashing 1`] = `ShallowWrapper {}`;
